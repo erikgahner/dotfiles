@@ -1,0 +1,12 @@
+// Place your key bindings in this file to override the defaults
+[
+    // Pipe
+    {
+        "key": "cmd+shift+m",
+        "command": "type",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": {
+            "text": " |> "
+        }
+    }
+]
