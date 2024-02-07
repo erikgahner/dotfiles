@@ -63,10 +63,19 @@
     "files.defaultLanguage": "markdown",
     "security.workspace.trust.untrustedFiles": "open",
     "update.showReleaseNotes": false,
-    "r.rpath.mac": "~Users/erikgahnerlarsen/Applications/",
+    "r.rpath.mac": "/usr/local/bin/R",
+    "r.rterm.mac": "/opt/homebrew/bin/radian",
+    "r.rterm.option": [
+        "--no-save",
+        "--no-restore",
+        "--r-binary=/usr/local/bin/R"
+    ],
     "r.session.levelOfObjectDetail": "Detailed",
     "r.session.data.rowLimit": 1000,
     "r.plot.useHttpgd": true,
+    "r.lsp.diagnostics": true,
+    "r.lsp.enabled": true,
+    "r.bracketedPaste": true,
     "window.commandCenter": false,
     "extensions.ignoreRecommendations": true,
     "explorer.confirmDragAndDrop": false,
@@ -75,6 +84,7 @@
     "git.openRepositoryInParentFolders": "always",
     "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.12",
     "python.experiments.enabled": false,
+    "rainbow_csv.align_in_scratch_file": true,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1500
 }
