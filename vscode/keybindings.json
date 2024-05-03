@@ -1,12 +1,30 @@
-// Place your key bindings in this file to override the defaults
 [
-    // Pipe
     {
         "key": "cmd+shift+m",
         "command": "type",
         "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
         "args": {
-            "text": " |> "
+            "text": "|> "
         }
+    },
+    {
+        "key": "cmd+alt+i",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "```{r}\n$0\n```"
+        }
+    },
+    {
+        "command": "r.view",
+        "key": "ctrl+v",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus"
+    },
+    {
+        "description": "knit document",
+        "key": "ctrl+i",
+        "command": "r.runCommandWithEditorPath",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": "rmarkdown::render(\"$$\")"
     }
 ]
