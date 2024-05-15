@@ -86,5 +86,19 @@
     "git.openRepositoryInParentFolders": "always",
     "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.12",
     "python.experiments.enabled": false,
-    "rainbow_csv.align_in_scratch_file": true
+    "rainbow_csv.align_in_scratch_file": true,
+    "explorer.confirmDelete": false,
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ],
+    "editor.rulers": [
+        {"column":  80, "color": "#282C34"},
+        {"column": 100, "color": "#282C34"},
+        {"column": 120, "color": "#282C34"}
+    ],
 }

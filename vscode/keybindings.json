@@ -21,10 +21,29 @@
         "when": "editorLangId == r || editorLangId == rmd && editorTextFocus"
     },
     {
+        "command": "r.head",
+        "key": "ctrl+h",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus"
+    },
+    {
         "description": "knit document",
         "key": "ctrl+i",
         "command": "r.runCommandWithEditorPath",
         "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
         "args": "rmarkdown::render(\"$$\")"
+    },
+    {
+        "key": "cmd+enter",
+        "command": "python.execSelectionInTerminal",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-python.execSelectionInTerminal",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "r.newFileDocument"
     }
 ]
