@@ -1,0 +1,23 @@
+{
+    "recommendations": [
+        "ban.spellright",
+        "charliermarsh.ruff",
+        "kevinrose.vsc-python-indent",
+        "mechatroner.rainbow-csv",
+        "ms-azuretools.vscode-docker",
+        "ms-python.debugpy",
+        "ms-python.flake8",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-vscode.theme-tomorrowkit",
+        "njpwerner.autodocstring",
+        "pkief.material-icon-theme",
+        "quarto.quarto",
+        "rdebugger.r-debugger",
+        "reditorsupport.r",
+        "tomoki1207.pdf",
+        "visualstudioexptteam.intellicode-api-usage-examples",
+        "visualstudioexptteam.vscodeintellicode",
+        "waderyan.gitblame"
+    ]
+}
