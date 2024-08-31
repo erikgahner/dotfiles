@@ -1,5 +1,5 @@
 {
-    "breadcrumbs.enabled": false,
+    "breadcrumbs.enabled": true,
     "editor.accessibilitySupport": "off",
     "editor.fontWeight": 300,
     "editor.copyWithSyntaxHighlighting": false,
