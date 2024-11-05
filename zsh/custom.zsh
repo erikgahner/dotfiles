@@ -5,12 +5,16 @@ alias bl="brew list"
 alias bu="brew update"
 alias bup="brew upgrade"
 alias gs="git status"
-alias ga="git add ."
-alias gm="git commit -m"
 alias gpl="git pull"
 alias gps="git push"
 alias e="exit"
 alias r="radian"
+alias vim="nvim"
+alias n="newsboat"
+alias hist='fc -li 0'
+alias python=python3
+alias cp='cp -i'
+alias mv='mv -i'
 
 # shortcuts
 omz=~/.oh-my-zsh/custom/custom.zsh
