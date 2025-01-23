@@ -1,5 +1,6 @@
 {
     "breadcrumbs.enabled": true,
+    "telemetry.telemetryLevel": "off",
     "editor.accessibilitySupport": "off",
     "editor.fontWeight": 300,
     "editor.copyWithSyntaxHighlighting": false,
