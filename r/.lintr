@@ -36,6 +36,7 @@ linters: linters_with_defaults(
     for_loop_index_linter(),
     function_argument_linter(),
     function_return_linter(),
+    return_linter(return_style = "explicit"),
     if_not_else_linter(exceptions = c("is.null", "is.na", "missing")),
     ifelse_censor_linter(),
     implicit_assignment_linter(except = c("bquote", "expression", "expr", "quo", "quos", "quote"), allow_lazy = FALSE, allow_scoped = FALSE),
@@ -45,7 +46,6 @@ linters: linters_with_defaults(
     keyword_quote_linter(),
     length_levels_linter(),
     length_test_linter(),
-    library_call_linter(allow_preamble = TRUE),
     literal_coercion_linter(),
     matrix_apply_linter(),
     missing_argument_linter(except = c("alist", "quote", "switch"), allow_trailing = FALSE),
@@ -93,5 +93,6 @@ linters: linters_with_defaults(
     whitespace_linter(),
     yoda_test_linter(),
     commented_code_linter = NULL,
-    object_usage_linter = NULL
+    object_usage_linter = NULL,
+    library_call_linter = NULL
   )
