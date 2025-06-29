@@ -1,3 +1,4 @@
 browser "/Applications/Firefox.app/Contents/MacOS/firefox '%u' &>/dev/null &"
 show-read-articles no
 show-read-feeds no
+cleanup-on-quit yes
