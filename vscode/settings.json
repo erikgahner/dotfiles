@@ -9,7 +9,7 @@
     "editor.fontLigatures": false,
     "editor.lineNumbers": "on",
     "editor.cursorBlinking": "solid",
-    "editor.cursorStyle": "line",
+    "editor.cursorStyle": "line-thin",
     "editor.cursorWidth": 2,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
@@ -17,33 +17,15 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.rulers": [
+        {"column":  80, "color": "#282C34"},
+        {"column":  95, "color": "#282C34"},
+        {"column": 120, "color": "#282C34"}
+    ],
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Tomorrow Night Eighties",
     "workbench.editor.showTabs": "multiple",
     "workbench.editor.enablePreview": false,
-    "workbench.colorCustomizations": {
-        "statusBarItem.remoteBackground": "#272727",
-        "statusBarItem.remoteForeground": "#ccc",
-        "activityBar.background": "#272727",
-        "editor.background": "#272727",
-        "editor.lineHighlightBackground": "#282C34",
-        "editor.lineHighlightBorder": "#3f3f3f",
-        "editor.selectionBackground": "#3E4451",
-        "editorCursor.foreground": "#ccc",
-        "statusBar.background": "#272727",
-        "statusBar.noFolderBackground": "#272727",
-        "statusBar.debuggingBackground": "#272727",
-        "terminalCursor.foreground": "#3178C6",
-        "titleBar.activeBackground": "#272727",
-        "titleBar.inactiveBackground": "#272727",
-        "sideBar.background": "#272727",
-        "sideBar.border": "#272727",
-        "tab.activeBackground": "#21252b",
-        "tab.border": "#272727",
-        "tab.inactiveBackground": "#272727",
-        "terminal.background": "#272727",
-    },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -97,10 +79,5 @@
         "markdown",
         "latex",
         "plaintext"
-    ],
-    "editor.rulers": [
-        {"column":  80, "color": "#282C34"},
-        {"column": 100, "color": "#282C34"},
-        {"column": 120, "color": "#282C34"}
-    ],
+    ]
 }
