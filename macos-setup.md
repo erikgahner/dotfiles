@@ -12,14 +12,10 @@ Install apps
 brew install --cask \
     1password \
     firefox \
-    iterm2 \
-    signal \
-    slack \
     spotify \
     visual-studio-code \
     vlc \
-    whatsapp \
-    zoom
+    whatsapp
 ```
 
 Install packages
