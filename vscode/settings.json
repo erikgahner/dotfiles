@@ -2,7 +2,6 @@
     "breadcrumbs.enabled": true,
     "telemetry.telemetryLevel": "off",
     "editor.accessibilitySupport": "off",
-    "editor.fontWeight": 300,
     "editor.copyWithSyntaxHighlighting": false,
     "editor.minimap.enabled": false,
     "editor.folding": false,
@@ -20,22 +19,11 @@
     "editor.inlineSuggest.enabled": true,
     "editor.rulers": [
         {"column":  80, "color": "#282C34"},
-        {"column":  95, "color": "#282C34"},
-        {"column": 120, "color": "#282C34"}
+        {"column":  100, "color": "#282C34"}
     ],
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.showTabs": "multiple",
     "workbench.editor.enablePreview": false,
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": "variable, support.other.variable, string.other.link, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag, variable.parameter, entity.name.class, entity.name.type.class, support.type, support.class",
-                "settings": {
-                    "foreground": "#CCC",
-                }
-            }
-        ]
-    },
     "files.defaultLanguage": "markdown",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
@@ -65,8 +53,6 @@
     "window.commandCenter": false,
     "extensions.ignoreRecommendations": true,
     "explorer.confirmDragAndDrop": false,
-    "zenMode.centerLayout": false,
-    "zenMode.hideLineNumbers": false,
     "git.openRepositoryInParentFolders": "always",
     "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.12",
     "python.experiments.enabled": false,
