@@ -4,17 +4,13 @@
         "charliermarsh.ruff",
         "kevinrose.vsc-python-indent",
         "mechatroner.rainbow-csv",
-        "ms-azuretools.vscode-docker",
         "ms-python.debugpy",
         "ms-python.flake8",
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "quarto.quarto",
         "rdebugger.r-debugger",
         "reditorsupport.r",
         "tomoki1207.pdf",
-        "visualstudioexptteam.intellicode-api-usage-examples",
-        "visualstudioexptteam.vscodeintellicode",
         "waderyan.gitblame"
     ]
 }

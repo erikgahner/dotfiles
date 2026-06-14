@@ -17,31 +17,3 @@ brew install --cask \
     vlc \
     whatsapp
 ```
-
-Install packages
-
-```bash
-brew install \
-    duti \
-    gh \
-    git \
-    git-open \
-    gnu-getopt \
-    gnu-indent \
-    gnu-sed \
-    gnu-tar \
-    gnutls \
-    grep \
-    ncdu \
-    npm \
-    parallel \
-    tmux \
-    tree \
-    z
-```
-
-Set default apps
-
-```
-duti duti.conf
-```
